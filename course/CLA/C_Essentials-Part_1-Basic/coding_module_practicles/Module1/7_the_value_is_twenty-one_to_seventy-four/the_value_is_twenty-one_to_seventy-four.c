@@ -52,12 +52,10 @@ int main()
 
 #include <stdio.h>
 
-int main(){
-    printf("The value of twenty-one is: %d \n", 0x15);
-    printf("The value of twenty-two is: %d \n", 0x16);
-    printf("The value of sixty-two is: %d \n", 0x40-2);
-	printf("The value of seventy-four is: %d \n", 0x49+1);
-
-
+int main(void) {
+    printf("The value of twenty-one is: %d\n", 0x15);  // 1×16 + 5 = 21
+    printf("The value of twenty-two is: %d\n", 0x16);  // 1×16 + 6 = 22
+    printf("The value of sixty-two is: %d\n", 0x3E);   // 3×16 + 14 = 62
+    printf("The value of seventy-four is: %d\n", 0x4A); // 4×16 + 10 = 74
     return 0;
 }
