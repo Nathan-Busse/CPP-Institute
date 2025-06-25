@@ -53,10 +53,10 @@ int main()
 #include <stdio.h>
 
 int main(){
-    printf("The value of twenty-one is: %d \n", 0015+7);
-    printf("The value of twenty-two is: %d \n", );
-    printf("The value of sixty-two is: %d \n", 0x36);
-	printf("The value of seventy-four is: %d \n", 0x44);
+    printf("The value of twenty-one is: %d \n", 0x15);
+    printf("The value of twenty-two is: %d \n", 0x16);
+    printf("The value of sixty-two is: %d \n", 0x40-2);
+	printf("The value of seventy-four is: %d \n", 0x49+1);
 
 
     return 0;
