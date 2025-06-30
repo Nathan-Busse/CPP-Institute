@@ -34,40 +34,6 @@ Days in Q4 of the current year: 92
 
 */
 
-
-// Previouse exercise code snippet:
-//---------------------------------
-
-/*
-
-#include <stdio.h>
-
-void printYear(int daysInFeb, const char *label) {
-    int dJan = 31, dFeb = daysInFeb, dMar = 31, dApr = 30;
-    int dMay = 31, dJun = 30, dJul = 31, dAug = 31;
-    int dSep = 30, dOct = 31, dNov = 30, dDec = 31;
-
-    int firstHalf  = dJan + dFeb + dMar + dApr + dMay + dJun;
-    int secondHalf = dJul + dAug + dSep + dOct + dNov + dDec;
-    int total      = firstHalf + secondHalf;
-
-    printf("%s\n", label);
-    printf("Days in the first half of the current year: %d\n", firstHalf);
-    printf("Days in the second half of the current year: %d\n", secondHalf);
-    printf("Days in the current year: %d\n", total);
-}
-
-int main(void) {
-    printYear(29, "A leap year:");
-    printf("\n");
-    printYear(28, "An ordinary year:");
-    return 0;
-}
-
-*/
-
-
-
 // Solution code:
 //---------------
 
