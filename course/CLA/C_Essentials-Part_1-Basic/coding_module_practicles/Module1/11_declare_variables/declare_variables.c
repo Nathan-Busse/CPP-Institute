@@ -120,29 +120,36 @@ int main()
 #include <stdio.h>
 
 void daysInMonth(Calander){
-    int Calander( Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec);
+    int ordinaryYear( Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec);
+    int leapYear(Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec, leapYear);
+    int februaryIn_leapYear = 29;
+
     {
-        int Calander = daysInMonth;
-            int daysIn_January = 31;
-            int Calander = daysIn_January = 31;
-            int daysIn_February = 28; // Ordinary year
-            int daysIn_March = 31;
-            int daysIn_April = 30;
-            int daysIn_May = 31;
-            int daysIn_June = 30;
-            int daysIn_July = 31;
-            int daysIn_August = 31;
-            int daysIn_September = 30;
-            int daysIn_October = 31;
-            int daysIn_November = 30;
-            int daysIn_December = 31;
-            int februaryIn_leapYear = 29;
+        int daysInMonth = ordinaryYear;
+        int FirstHalf = daysInMonth;
+            int Jan = 31;
+            int Feb = 28; // Ordinary year
+            int Mar = 31;
+            int Apr = 30;
+            int May = 31;
+            int June = 30;
+            
+        int daysInMonth = leapYear;
+        int SecondHalf = daysInMonth;
+            int Jul = 31;
+            int Aug = 31;
+            int Sep = 30;
+            int Oct = 31;
+            int Nov = 30;
+            int Dec = 31;
+
         
     }
 
 int main(void);
 {    
     int OrdinarydaysInFirstHalf = daysInMonth+Calander;
+    int OrdinarydaysInSecondHalf = SecondHalf;
 }
 
 
