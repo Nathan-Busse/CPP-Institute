@@ -86,10 +86,10 @@ void printYear(int daysInFeb, const char *label) {
     int total    = quarter1 + quarter2 + quarter3 + quarter4;
 
     printf("%s\n", label);
-    printf("Total days in quarter1 of current year is: %d\n", quarter1);
-    printf("Total days in quarter2 of current year is: %d\n", quarter2);
-    printf("Total days in quarter3 of current year is: %d\n", quarter3);
-    printf("Total days in quarter4 of current year is: %d\n", quarter4);
+    printf("Days in Q1 of the current year: %d\n", quarter1);
+    printf("Days in Q2 of the current year: %d\n", quarter2);
+    printf("Days in Q3 of the current year: %d\n", quarter3);
+    printf("Days in Q4 of the current year: %d\n", quarter4);
 
 }
 
