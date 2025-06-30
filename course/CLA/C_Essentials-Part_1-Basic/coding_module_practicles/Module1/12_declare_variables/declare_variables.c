@@ -31,12 +31,10 @@ Days in Q2 of the current year: 91
 Days in Q3 of the current year: 92
 Days in Q4 of the current year: 92
 
-
 */
 
 // Solution code:
 //---------------
-
 
 #include <stdio.h>
 
