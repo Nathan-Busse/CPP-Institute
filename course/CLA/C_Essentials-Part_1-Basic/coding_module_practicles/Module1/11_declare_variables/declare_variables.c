@@ -119,41 +119,29 @@ int main()
 
 #include <stdio.h>
 
-void daysInMonth(Calander){
-    int ordinaryYear( Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec);
-    int leapYear(Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec, leapYear);
-    int februaryIn_leapYear = 29;
+/* 
+ * printYear:
+ *  - daysInFeb: number of days in February (28 or 29)
+ *  - label:    header to print ("A leap year:" / "An ordinary year:")
+ */
+void printYear(int daysInFeb, const char *label) {
+    int dJan = 31, dFeb = daysInFeb, dMar = 31, dApr = 30;
+    int dMay = 31, dJun = 30, dJul = 31, dAug = 31;
+    int dSep = 30, dOct = 31, dNov = 30, dDec = 31;
 
-    {
-        int FirstHalf(ordinaryYear);
-        {
+    int firstHalf  = dJan + dFeb + dMar + dApr + dMay + dJun;
+    int secondHalf = dJul + dAug + dSep + dOct + dNov + dDec;
+    int total      = firstHalf + secondHalf;
 
-        int daysInMonth = ordinaryYear;
-        int FirstHalf = daysInMonth;
-            int Jan = 31;
-            int Feb = 28; // Ordinary year
-            int Mar = 31;
-            int Apr = 30;
-            int May = 31;
-            int June = 30;
-        }
-        int SecondHalf(ordinaryYear);
-        {
-        int daysInMonth = leapYear;
-        int SecondHalf = daysInMonth;
-            int Jul = 31;
-            int Aug = 31;
-            int Sep = 30;
-            int Oct = 31;
-            int Nov = 30;
-            int Dec = 31;
-        }
-    }
-
-int main(void);
-{    
-    int OrdinarydaysInFirstHalf = daysInMonth+Calander;
-    int OrdinarydaysInSecondHalf = SecondHalf;
+    printf("%s\n", label);
+    printf("Days in the first half of the current year: %d\n", firstHalf);
+    printf("Days in the second half of the current year: %d\n", secondHalf);
+    printf("Days in the current year: %d\n", total);
 }
 
-
+int main(void) {
+    printYear(29, "A leap year:");
+    printf("\n");
+    printYear(28, "An ordinary year:");
+    return 0;
+}
