@@ -125,6 +125,9 @@ void daysInMonth(Calander){
     int februaryIn_leapYear = 29;
 
     {
+        int FirstHalf(ordinaryYear);
+        {
+
         int daysInMonth = ordinaryYear;
         int FirstHalf = daysInMonth;
             int Jan = 31;
@@ -133,7 +136,9 @@ void daysInMonth(Calander){
             int Apr = 30;
             int May = 31;
             int June = 30;
-            
+        }
+        int SecondHalf(ordinaryYear);
+        {
         int daysInMonth = leapYear;
         int SecondHalf = daysInMonth;
             int Jul = 31;
@@ -142,8 +147,7 @@ void daysInMonth(Calander){
             int Oct = 31;
             int Nov = 30;
             int Dec = 31;
-
-        
+        }
     }
 
 int main(void);
