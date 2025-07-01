@@ -59,23 +59,24 @@ There are 300 seconds in 5 minutes.
 // Solution code:
 //---------------
 
-#include <stdio.h> 
-#include <stdlib.h> 
+#include <stdio.h>
+#include <stdlib.h>
 
-int main()
-{
-  int v=10800; 
-  
-  int zzz=3*60; // This is a variable to hold the value of 3 minutes in seconds 
+int main() {
+    int seconds_in_minute = 60;
+    int seconds_in_hour = seconds_in_minute * 60;
 
-  int zzz=5*60; // This is a variable to hold the value of 6 minutes in seconds 
-  
-  float siii=3.141526; // This is the value of pi 
-  
-  
-  /* printf(" value of some variable: %d \n", otherVariable);
-      here we should print the v value, but a programmer didn't have time to write the code.
-      However, he/she likes writing long, well formatted comments
-   */
+    int hours = 3;
+    int minutes1 = 3;
+    int minutes2 = 5;
+
+    int total_seconds_in_hours = hours * seconds_in_hour;
+    int total_seconds_in_minutes1 = minutes1 * seconds_in_minute;
+    int total_seconds_in_minutes2 = minutes2 * seconds_in_minute;
+
+    printf("There are %d seconds in %d hours.\n", total_seconds_in_hours, hours);
+    printf("There are %d seconds in %d minutes.\n", total_seconds_in_minutes1, minutes1);
+    printf("There are %d seconds in %d minutes.\n", total_seconds_in_minutes2, minutes2);
+
+    return 0;
 }
-
