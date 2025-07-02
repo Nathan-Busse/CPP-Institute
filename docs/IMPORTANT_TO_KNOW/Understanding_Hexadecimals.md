@@ -69,7 +69,7 @@ Note that MSD stands for most significant digit and LSD stands for least signifi
 
 !Powers of 16
 
-[!Hexadecimal-Numbers-600x758.jpg](docs/IMPORTANT_TO_KNOW/assets/Hexadecimal-Numbers-600x758.jpg)
+![docs/IMPORTANT_TO_KNOW/assets/Hexadecimal-Numbers-600x758.jpg](docs/IMPORTANT_TO_KNOW/assets/Hexadecimal-Numbers-600x758.jpg)
 **_Figure 1: various powers of 16._**
 
 The first 9 digits in the hexadecimal system are the same digits 0-9 that you’re familiar with. However, the next 6 are represent by the first few letters of the alphabet: A, B, C, D, E, and F.
