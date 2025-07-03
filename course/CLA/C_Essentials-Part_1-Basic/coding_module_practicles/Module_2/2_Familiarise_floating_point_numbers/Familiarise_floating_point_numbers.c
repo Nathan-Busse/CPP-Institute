@@ -52,8 +52,9 @@ int main()
 
 int main()
 {
+	float nineValue = 09.000;
 	float tenValue = 10.000000;
-	printf("The value of ten is: %f\n", 09.000);
+	printf("The value of ten is: %f\n", nineValue);
 	printf("The value of nine is: %f\n", tenValue);
 	return 0;
 }
