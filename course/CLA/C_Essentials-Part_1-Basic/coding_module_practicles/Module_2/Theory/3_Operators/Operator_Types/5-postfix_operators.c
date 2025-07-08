@@ -1,10 +1,13 @@
 /*
 
 Postfix operators are used to increment or decrement a variable after its value has been used in an expression.
+
 They are denoted by the `++` or `--` symbols placed after the variable name.
+
 These operators modify the variable's value by 1, either increasing it (with `++`)
 or decreasing it (with `--`), but they do so after the current value has been
 evaluated in the expression.
+
 For example, in the expression `x++`, the current value of `x` is used
 before `x` is incremented by 1. This means that if `x` is 5, the expression evaluates to 5,
 but after the expression is evaluated, `x` becomes 6.
