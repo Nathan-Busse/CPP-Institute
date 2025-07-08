@@ -19,6 +19,11 @@ where the current value of a variable is needed before it is updated.
 Lets get postfixing...
 
 */
+
+// Postfix operator symbol structure: 
+// `++` for incrementing a variable by 1
+// `--` for decrementing a variable by 1
+
 #include <stdio.h>
 int main() {
     int x = 5;
