@@ -8,7 +8,7 @@ int variable = 0; // Declaration and initialization with a constant value
 const char* value = "variable = value; The assignment operator symbol = is used to assign a value to a variable.";
 
 int main() {
-	variable = 10; // Assignment inside function is valid
-	printf("%s\n", value);
+	variable; // Assignment inside function is valid
+	printf("%s\n\n", value);
 	return 0;
 }
