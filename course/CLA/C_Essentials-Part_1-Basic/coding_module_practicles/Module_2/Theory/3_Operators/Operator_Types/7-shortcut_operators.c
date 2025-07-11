@@ -26,10 +26,25 @@ division, and modulus. The syntax for these operators is as follows:
 #include <stdio.h>
 
 int main() {
-shortcut_operator();
-op_operator();
-    return 0;
+    // Function declarations
+    int shortcut_operator(void);
+    int op_operator(void);
 
+    // Calling the functions to demonstrate shortcut operators and OP operators
+    printf("---------------------------------\n");
+    printf("Demonstrating Shortcut Operators:\n");
+    printf("---------------------------------\n");
+    shortcut_operator();
+
+     // Optional delay for better readability in output
+
+    // Call the function to demonstrate OP operators
+    printf("---------------------------------\n");
+    printf("Demonstrating OP Operators:      \n");
+    printf("---------------------------------\n");
+    
+    op_operator();\
+    return 0; // Return 0 to indicate successful execution
 }
 
 //=============================================================SHORTCUT OPERATORS====================================================================================
@@ -45,7 +60,7 @@ op_operator();
 // `-=` for subtraction assignment
 // `*=` for multiplication assignment
 // `/=` for division assignment
-void shortcut_operator()
+int shortcut_operator(void)
 {
     int x = 10;
     int y = 20;
@@ -72,7 +87,6 @@ void shortcut_operator()
     x %= 7; // Equivalent to x = x % 7
     printf("Value of x after modulus: %d\n", x); // Output: 2
 
-    return 0;
 }
 // Output:
 // Value of x before addition: 10
@@ -98,7 +112,7 @@ void shortcut_operator()
 // `/=` for division assignment
 
 
-void op_operator()
+int op_operator(void)
 {
     int a = 5;
     int b = 3;
@@ -119,7 +133,6 @@ void op_operator()
     // Using op modulus operator
     a %= 3; // Equivalent to a = a % 3
     printf("Value of a after modulus: %d\n", a); // Output: 1
-    return 0;
 }
 // Output:
 // Value of a before addition: 5
@@ -259,4 +272,4 @@ make your code harder to read and understand. Always prioritize clarity and main
 
 */
 
-//===================================================================END=====================================================================================
+//===================================================================END====================================================================================
